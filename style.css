@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: white;
+    font-size: 41px;
+}
+
+
+.header {
+    text-align: center;
+}
+
+.subheader {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: left;
+}
+
+.li .list {
+    list-style: none;
+}
+
+img {
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95vw;
+    margin: 50px auto;
+    list-style: none;
+}
+
+.card {
+    width: 41%;
+    background-color: rgba(21, 16, 25, 0.30);
+    text-align: center;
+    transition: 0.3s all;
+    border: 2px rgba(255, 255, 255, 0.77) solid;
+    border-radius: 14px;
+    margin-right: 14px;
+}
+
+.card:hover,
+a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
