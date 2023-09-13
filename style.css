@@ -71,6 +71,7 @@ a:active {
 }
 
 .card:hover {
+    color: black;
     background-color: white;
     transition: 0.5s all;
     transform: translate3D(0, -5px, 0) scale(1.05);
